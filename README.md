@@ -1,8 +1,8 @@
-# install_postgresql_cluster_pacemaker
+# (LAB)install_postgresql_cluster_pacemaker
 Procedure to Install PostgreSQL Cluster with Pacemaker (RHEL + Pacemaker + PostgreSQL)
 
 
-# Lab Architecture
+# Architecture
 Node 1 (db1): Bare Metal RHEL (Active Node)
 Node 2 (db2): Bare Metal RHEL (Passive Node)
 Node 3 (storage): VM (iSCSI Target / Shared Storage)
