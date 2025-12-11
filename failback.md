@@ -1,3 +1,5 @@
+# Existing Node (Not Completely removed for the cluster)
+
 > Confirm the failed DB is up and Pacemaker service is started.
 
 ****On db1 (Failback Node)***
@@ -14,7 +16,7 @@ pcs resource cleanup pg_group
 pcs resource move pg_group db01
 watch -n 1 pcs status
 ```
-Clear the Constraint
+> Clear the Constraint
 ```bash
 pcs resource clear pg_group
 pcs status
