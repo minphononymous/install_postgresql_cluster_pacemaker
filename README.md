@@ -1,5 +1,4 @@
 ## Documentation
 
-- [Installation Guide](installation.md)
-- [Usage Instructions](usage.md)
-- [Configuration Options](config.md)
+- [Installation Procedure](installation.md)
+- [Failback Procedure](failback.md)
